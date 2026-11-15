@@ -1,13 +1,13 @@
-# FritzTV – DVB-C-Wiedergabe von der FRITZ!Box Cable auf tvOS und macOS
+# FritzDVB – TV und Radio von der FRITZ!Box Cable auf tvOS und macOS
 
 [![Plattformen](https://img.shields.io/badge/Plattform-tvOS%2017%2B%20%7C%20macOS%2014%2B-blue)](#installation)
 [![Swift](https://img.shields.io/badge/Swift-5.9%2B-F05138?logo=swift&logoColor=white)](#aufbau)
 [![FRITZ!Box](https://img.shields.io/badge/FRITZ!Box%20Cable-DVB--C%20%2F%20RTSP-red)](#funktionen)
 [![Lizenz: MIT](https://img.shields.io/badge/Lizenz-MIT-green.svg)](LICENSE)
 
-**FritzTV** ist ein SwiftUI-Client für tvOS und macOS, der die RTSP-Streams des integrierten DVB-C-Tuners einer AVM FRITZ!Box Cable wiedergibt. Die Verbindung läuft direkt zur Box (Heimnetz oder WireGuard-VPN), ohne Zwischenserver. **FritzRadio** ist eine separate macOS-Menüleisten-App für die Radiosender derselben Quelle.
+**FritzDVB** umfasst zwei Apps für den DVB-C-Tuner der FRITZ!Box Cable. **FritzTV** ist ein SwiftUI-Client für tvOS und macOS, der die RTSP-Streams des integrierten DVB-C-Tuners einer AVM FRITZ!Box Cable wiedergibt. Die Verbindung läuft direkt zur Box (Heimnetz oder WireGuard-VPN), ohne Zwischenserver. **FritzRadio** ist eine separate macOS-Menüleisten-App für die Radiosender derselben Quelle.
 
-> **English summary:** Native tvOS and macOS client for the DVB-C tuner of AVM FRITZ!Box Cable routers (6690, 6670, 6660, 6591, 6590, 6490 Cable, FRITZ!WLAN Repeater DVB-C). Plays unencrypted cable channels via RTSP/M3U using VLCKit. Features: EPG timeline from DVB-EIT and XMLTV (−6 h to +22 h), local timeshift buffer, start-over via public broadcasters' HLS streams, MediathekViewWeb search with subtitles, TR-064 station scan, UPnP tuner diagnostics. FritzRadio is a macOS menu bar app for the cable radio stations (logos, now/next from DVB-EIT, favorites, media keys).
+> **English summary:** FritzDVB consists of two apps, FritzTV and FritzRadio. FritzTV is a native tvOS and macOS client for the DVB-C tuner of AVM FRITZ!Box Cable routers (6690, 6670, 6660, 6591, 6590, 6490 Cable, FRITZ!WLAN Repeater DVB-C). Plays unencrypted cable channels via RTSP/M3U using VLCKit. Features: EPG timeline from DVB-EIT and XMLTV (−6 h to +22 h), local timeshift buffer, start-over via public broadcasters' HLS streams, MediathekViewWeb search with subtitles, TR-064 station scan, UPnP tuner diagnostics. FritzRadio is a macOS menu bar app for the cable radio stations (logos, now/next from DVB-EIT, favorites, media keys).
 
 Xcode-Targets:
 
