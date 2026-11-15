@@ -2,7 +2,7 @@ FritzTV – Hinweise zu Drittsoftware
 ===================================
 
 FritzTV selbst steht unter der MIT-Lizenz (LICENSE-FritzTV.txt).
-Quellcode: https://github.com/DrkBnkl/FritzTV
+Quellcode: https://github.com/DrkBnkl/FritzDVB
 Der Quellcode einer bestimmten Version liegt unter dem gleichnamigen Tag, z. B. v1.2.1.
 
 VLCKit / libVLC (VideoLAN)
