@@ -53,7 +53,7 @@ Die Screenshots zeigen die Apple-TV-Oberfläche; sie werden mit `scripts/make-sc
 
 ### Release-Build (macOS)
 
-1. Unter [Releases](https://github.com/DrkBnkl/FritzTV/releases) `FritzTV-macOS-Universal.zip` bzw. `FritzRadio-macOS-Universal.zip` herunterladen und entpacken (Universal Binary: Apple Silicon und Intel).
+1. Unter [Releases](https://github.com/DrkBnkl/FritzDVB/releases) `FritzTV-macOS-Universal.zip` bzw. `FritzRadio-macOS-Universal.zip` herunterladen und entpacken (Universal Binary: Apple Silicon und Intel).
 2. `FritzTV.app` bzw. `FritzRadio.app` nach `/Applications` verschieben.
 3. **Gatekeeper:** Die Apps sind ad-hoc signiert und nicht notarisiert. macOS blockiert daher den ersten Start.
    - macOS 15+: App starten, dann **Systemeinstellungen › Datenschutz & Sicherheit › Trotzdem öffnen**.
